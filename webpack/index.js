@@ -14,7 +14,10 @@ const webpackConfig = {
   devtool: 'source-map',
   output: {
     path: path.join(__dirname, '../dist'),
-    filename: '[name].js'
+    filename: '[name].js',
+    library: 'NeoLabSocketClient',
+    libraryTarget: 'umd',
+    umdNamedDefine: true
   },
   stats: { children: false },
   module: {

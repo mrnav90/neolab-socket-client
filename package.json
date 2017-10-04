@@ -12,6 +12,7 @@
     "start": "webpack --hide-modules"
   },
   "dependencies": {
+    "emitter": "^0.0.5",
     "socketcluster-client": "^8.0.1"
   },
   "devDependencies": {

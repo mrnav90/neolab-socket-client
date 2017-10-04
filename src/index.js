@@ -1,3 +1,5 @@
 'use strict';
 
-import 'socketcluster-client';
+import NeoLabSocketClient from './neolab.socket';
+
+module.exports = NeoLabSocketClient;
